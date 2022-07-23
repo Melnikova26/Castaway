@@ -76,6 +76,7 @@ h3 {
 	&__link {
 		margin-right: 5%;
 
+		font-family: 'DM Sans';
 		color: white;
 		text-decoration: none;
 		font-size: 17px;
@@ -131,6 +132,8 @@ h3 {
 	}
 
 	&__link {
+		font-family: 'DM Sans';
+
 		&:hover {
 			img {
 				filter: opacity(25%);
