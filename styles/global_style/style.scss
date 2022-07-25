@@ -544,9 +544,9 @@ h3 {
 
 //styles for footer and section 'reviews' start
 .reviews {
-	margin-bottom: 200px;
+	margin-bottom: 15%;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
 	grid-template-rows: repeat(2, 1fr);
 	gap: 16px;
 
@@ -584,6 +584,7 @@ h3 {
 
 		&:nth-child(2) {
 			justify-self: flex-end;
+			margin-right:35%;
 		}
 
 		&:last-child {
@@ -640,10 +641,6 @@ h3 {
 }
 
 @media (max-width:398px) {
-	.reviews {
-		margin-bottom: 80px;
-	}
-
 	.footer {
 		padding-left: 50px;
 	}
